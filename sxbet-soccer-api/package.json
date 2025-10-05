@@ -1,0 +1,27 @@
+{
+  "name": "sxbet-soccer-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node fetchSoccerEvents.js",
+    "leagues": "node fetchActiveLeagues.js",
+    "realtime": "node realtimeBestOdds.js",
+    "orderbook": "node liveOrderbook.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "autobet": "node autoBet.js",
+    "arb": "node arbScannerV2.js",
+    "arb-live": "node arbScannerRealtime.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/eth-sig-util": "^7.0.3",
+    "ably": "^2.14.0",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "ethers": "^5.7.2",
+    "express": "^5.1.0"
+  }
+}
