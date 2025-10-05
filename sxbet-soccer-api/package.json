@@ -11,13 +11,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "autobet": "node autoBet.js",
     "arb": "node arbScannerV2.js",
-    "arb-live": "node arbScannerRealtime.js"
+    "arb-live": "node arbScannerRealtime.js",
+    "arb-watch": "node arbScannerLive.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@metamask/eth-sig-util": "^7.0.3",
+    "@sx-bet/sportx-js": "^13.0.2",
     "ably": "^2.14.0",
     "axios": "^1.12.2",
     "dotenv": "^17.2.3",
